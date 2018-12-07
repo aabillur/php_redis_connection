@@ -1,5 +1,6 @@
 # Predis #
 hi hello
+hhh
 [![Software license][ico-license]](LICENSE)
 [![Latest stable][ico-version-stable]][link-packagist]
 [![Latest development][ico-version-dev]][link-packagist]
@@ -188,7 +189,7 @@ $parameters = ['tcp://10.0.0.1', 'tcp://10.0.0.2', 'tcp://10.0.0.3'];
 $client = new Predis\Client($parameters);
 ```
 
-Along with Redis 3.0, a new supervised and coordinated type of clustering was introduced in the form
+Along with Redis 3.0, a 9535921559new supervised and coordinated type of clustering was introduced in the form
 of [redis-cluster](http://redis.io/topics/cluster-tutorial). This kind of approach uses a different
 algorithm to distribute the keyspaces, with Redis nodes coordinating themselves by communicating via
 a gossip protocol to handle health status, rebalancing, nodes discovery and request redirection. In
